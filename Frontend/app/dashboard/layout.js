@@ -1,6 +1,6 @@
 export const dynamic = 'force-dynamic';
-import Sidebar from "@/components/dashboard/Sidebar";
-import Topbar from "@/components/dashboard/Topbar";
+import Sidebar from "@/components/Sidebar";
+import Topbar from "@/components/Topbar";
 
 export default function DashboardLayout({ children }) {
   return (
