@@ -1,7 +1,4 @@
-
-
-
-"use client";
+export const dynamic = 'force-dynamic';
 import Link from 'next/link';
 import { destroyCookie } from 'nookies';
 import { useRouter, useSearchParams } from 'next/navigation';

@@ -1,5 +1,3 @@
-export const dynamic = 'force-dynamic';
-
 "use client";
 import { useEffect, useState } from 'react';
 import API from '@/lib/api-client';
