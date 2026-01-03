@@ -94,50 +94,35 @@ Backend
 ________________________________________
 📂 Project Structure
 
+```bash
 ECOMM_DASHBOARD/
-│
-├── FRONTEND/                     # Next.js Application
+├── FRONTEND/
 │   ├── src/
 │   │   ├── app/
-│   │   │   ├── (client)/         # Public Shop & User Routes
-│   │   │   ├── (dashboard)/      # Protected Admin Routes
-│   │   │   └── api/              # Next.js Proxy API
-│   │   │
-│   │   ├── components/           # Reusable UI Components
-│   │   │   ├── layout/           # Navbar, Sidebar, Footer
-│   │   │   └── ui/               # Buttons, Modals, Cards
-│   │   │
-│   │   ├── lib/                  # API Clients & Utilities
-│   │   ├── hooks/                # Custom React Hooks
-│   │   └── styles/               # Global Styles
-│   │
-│   ├── public/                   # Static Assets
+│   │   │   ├── (client)/
+│   │   │   ├── (dashboard)/
+│   │   │   └── api/
+│   │   ├── components/
+│   │   │   ├── layout/
+│   │   │   └── ui/
+│   │   ├── lib/
+│   │   ├── hooks/
+│   │   └── styles/
+│   ├── public/
 │   ├── package.json
 │   └── next.config.js
 │
-├── BACKEND/                      # Express API
-│   ├── models/                   # Mongoose Schemas
-│   │   ├── User.js
-│   │   ├── Product.js
-│   │   └── Order.js
-│   │
-│   ├── routes/                   # API Endpoints
-│   │   ├── auth.routes.js
-│   │   ├── product.routes.js
-│   │   └── order.routes.js
-│   │
-│   ├── middleware/               # Auth & Error Handling
-│   │   ├── auth.middleware.js
-│   │   └── error.middleware.js
-│   │
-│   ├── config/                   # DB & App Config
-│   │   └── db.js
-│   │
-│   ├── server.js                 # Entry Point
+├── BACKEND/
+│   ├── models/
+│   ├── routes/
+│   ├── middleware/
+│   ├── config/
+│   ├── server.js
 │   └── package.json
 │
-├── .gitignore                    # Global Ignore File
+├── .gitignore
 └── README.md
+```
 
 ________________________________________
 ⚡ Getting Started
