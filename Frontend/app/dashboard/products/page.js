@@ -37,8 +37,15 @@ export default function ProductsPage() {
   const handleExport = async () => {
     try {
       const token = document.cookie.split('; ').find(row => row.startsWith('token='))?.split('=')[1];
-      const response = await fetch('http://localhost:5000/api/products/export/csv', {
-        headers: { 'Authorization': `Bearer ${token}` }
+
+      // const response = await fetch('http://localhost:5000/api/products/export/csv', {
+      //   headers: { 'Authorization': `Bearer ${token}` }
+      // });
+
+      const API_URL = process.env.NEXT_PUBLIC_API_URL; 
+
+      const response = await fetch(`${API_URL}/products/export/csv`, {
+          headers: { 'Authorization': `Bearer ${token}` }
       });
       if (!response.ok) throw new Error('Export failed');
       const blob = await response.blob();
