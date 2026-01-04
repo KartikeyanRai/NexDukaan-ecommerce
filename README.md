@@ -1,5 +1,11 @@
 
-🛒 ## NexDukaan — Modern E-Commerce Platform
+🛒 
+# NexDukaan — Modern E-Commerce Platform
+
+### DEMO VIDEO LINK: https://drive.google.com/drive/folders/1YFnKEEzJFtSOcEXebaAbOR16K9nA-SdX?usp=sharing
+
+### VERCEL LINK: https://nex-dukaan-ecommerce-4fny-lpkskyw0y-kartikeyan-rais-projects.vercel.app
+
 ![alt text](images/image-1.png)
  
 NexDukaan is a full-stack, responsive e-commerce platform built using a Monorepo architecture.
